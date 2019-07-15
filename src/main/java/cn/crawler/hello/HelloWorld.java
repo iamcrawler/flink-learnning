@@ -15,11 +15,6 @@ public class HelloWorld {
     public static void main(String[] args) throws Exception {
         //获取运行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-
-
-
-
-
         //key by
         //分组，可以理解为group by
         //将DataStream→KeyedStream  后面基于KeyedStream 的操作，都是组内操作
@@ -45,15 +40,14 @@ public class HelloWorld {
 
 
         //聚合 KeyedStream→DataStream
-//        env.fromElements(Tuple2.of(1,2),Tuple2.of(2,4),Tuple2.of(1,3),Tuple2.of(1,4),Tuple2.of(2,3))
-//                .keyBy(0)
-//                .sum(0)
-//                .addSink(new PrintSinkFunction<>());
-//
-//        env.execute("hello world");
+        env.fromElements(Tuple2.of(1, 2), Tuple2.of(2, 4), Tuple2.of(1, 3), Tuple2.of(1, 4), Tuple2.of(2, 3))
+                .keyBy(0)
+                .sum(0)
+                .addSink(new PrintSinkFunction<>());
+
+        env.execute("hello world");
 
         //aggregate  HotItems里面有现成例子
-
 
 
     }

@@ -11,8 +11,13 @@ D:\mft\codes\flink-learnning\src\main\java\cn\crawler\util\GsonUtil.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\mft\Agent.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\hello\StreamingWindowWordCountJava.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\util\ObjectUtil.java
+D:\mft\codes\flink-learnning\src\main\java\cn\crawler\util\RabbitMqSend.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\mft\SourceFromMySQL.java
+D:\mft\codes\flink-learnning\src\main\java\cn\crawler\mft\KafkaDemo.java
+D:\mft\codes\flink-learnning\src\main\java\cn\crawler\util\RabbitMqUtil.java
+D:\mft\codes\flink-learnning\src\main\java\cn\crawler\mft\test\StreamSQLExample.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\util\ExecutionEnvUtil.java
+D:\mft\codes\flink-learnning\src\main\java\cn\crawler\hello\FlinkDemo.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\mft\MallUserLogin.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\util\PropertiesConstants.java
 D:\mft\codes\flink-learnning\src\main\java\cn\crawler\hello\HelloWorld.java

@@ -13,15 +13,15 @@ import java.util.Random;
 public class MailUtil {
 
 
-    public static String AuthMailSSL(String mail,String address) throws EmailException {
+    public static String AuthMailSSL(String mail, String address) throws EmailException {
         //校验邮箱格式
         String format = "[\\w!#$%&'*+/=?^_`{|}~-]+(?:\\.[\\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\\w](?:[\\w-]*[\\w])?\\.)+[\\w](?:[\\w-]*[\\w])?";
-        if(!mail.matches(format)){
+        if (!mail.matches(format)) {
             throw new RuntimeException("邮箱格式不符合");
         }
         //生成随机数，发送邮件
         Random random = new Random();
-        Integer i = random.nextInt(9999-1000+1)+1000;
+        Integer i = random.nextInt(9999 - 1000 + 1) + 1000;
         HtmlEmail hemail = new HtmlEmail();
         hemail.setSSL(true);
         hemail.setHostName("smtp.163.com");
@@ -34,7 +34,7 @@ public class MailUtil {
         hemail.setFrom("loqvliuliang@163.com", "刘亮");
         hemail.setAuthentication("loqvliuliang@163.com", "handhand123");
         hemail.setSubject("【异地登陆提醒】");
-        hemail.setMsg("警告：您的账号于"+DateUtil.format(new Date()) +"在【"+address+"】登陆");
+        hemail.setMsg("警告：您的账号于" + DateUtil.format(new Date()) + "在【" + address + "】登陆");
         hemail.send();
         return i.toString();
     }

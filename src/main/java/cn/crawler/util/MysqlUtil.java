@@ -1,7 +1,8 @@
 package cn.crawler.util;
 
-import cn.crawler.mft.Agent;
-import cn.crawler.mft.MallUserLogin;
+import cn.crawler.mft_first.Agent;
+import cn.crawler.mft_first.MallUserLogin;
+import cn.crawler.mft_seconed.KafkaEntity;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -17,23 +18,27 @@ public class MysqlUtil {
     private Connection connection;
 
 
+    public void insertKafkaEntity(KafkaEntity kafkaEntity) throws Exception {
+        System.out.println("正准备插入数据："+kafkaEntity.toString());
+        connection = getConnection();
+        String sql = "insert into kafka_entity values ( '"+kafkaEntity.getId()+"' ,'"+kafkaEntity.getMessage()+"')";
+        ps = this.connection.prepareStatement(sql);
+        ps.execute();
+        close();
+    }
+
 
     public List<MallUserLogin> getLogins(String userId) throws Exception {
         connection = getConnection();
         String sql = "SELECT * FROM `m_mall_user`.user_login_info WHERE user_id = ?  order by login_time desc ";
         ps = this.connection.prepareStatement(sql);
-        ps.setString(1,userId);
+        ps.setString(1, userId);
         ResultSet resultSet = ps.executeQuery();
 
         List<MallUserLogin> list = new ArrayList<>();
 
         while (resultSet.next()) {
-            MallUserLogin userLogin = new MallUserLogin(
-//                    resultSet.getInt("id"),
-//                    resultSet.getString("name").trim(),
-//                    resultSet.getString("password").trim(),
-//                    resultSet.getInt("age")
-            );
+            MallUserLogin userLogin = new MallUserLogin();
             Date loginTime = resultSet.getDate("login_time");
             String id = resultSet.getString("id");
             String userId1 = resultSet.getString("user_id");
@@ -49,8 +54,6 @@ public class MysqlUtil {
         close();
         return list;
     }
-
-
 
 
     public List<Agent> getAgents() throws Exception {
@@ -69,7 +72,6 @@ public class MysqlUtil {
         close();
         return list;
     }
-
 
 
     /**
@@ -91,9 +93,9 @@ public class MysqlUtil {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://139.224.168.174:3332/m_mall_user?useUnicode=true&characterEncoding=UTF-8", "dev_client_001", "meifute@123");
+            con = DriverManager.getConnection("jdbc:mysql://www.iamcrawler.cn:3306/crawler_flink?useUnicode=true&characterEncoding=UTF-8", "root", "123456");
         } catch (Exception e) {
-            System.out.println("-----------mysql get connection has exception , msg = "+ e.getMessage());
+            System.out.println("-----------mysql get connection has exception , msg = " + e.getMessage());
         }
         return con;
     }

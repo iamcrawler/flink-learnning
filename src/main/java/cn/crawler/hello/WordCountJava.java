@@ -1,4 +1,5 @@
 package cn.crawler.hello;
+
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -24,6 +25,7 @@ public class WordCountJava {
         //打印
         wordCounts.print();
     }
+
     //分割字符串的方法
     public static class LineSplitter implements FlatMapFunction<String, Tuple2<String, Integer>> {
         public void flatMap(String line, Collector<Tuple2<String, Integer>> out) {
