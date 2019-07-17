@@ -30,6 +30,7 @@ public class TableAPIDemo {
 
         //配置正好执行一次策略
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
+        //1S执行一次checkpoint
         env.enableCheckpointing(1000);
         env.getCheckpointConfig().setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE);
 
