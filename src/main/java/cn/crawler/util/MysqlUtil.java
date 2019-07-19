@@ -21,7 +21,12 @@ public class MysqlUtil {
     public void insertKafkaEntity(KafkaEntity kafkaEntity) throws Exception {
         System.out.println("正准备插入数据："+kafkaEntity.toString());
         connection = getConnection();
-        String sql = "insert into kafka_entity values ( '"+kafkaEntity.getId()+"' ,'"+kafkaEntity.getMessage()+"')";
+        String sql =
+                "insert into kafka_entity values (" +
+                        "'"+kafkaEntity.getId()+"' ," +
+                        "'"+kafkaEntity.getMessage()+"'," +
+                        "'"+kafkaEntity.getName()+"'," +
+                        "'"+kafkaEntity.getCreate_time()+"')";
         ps = this.connection.prepareStatement(sql);
         ps.execute();
         close();

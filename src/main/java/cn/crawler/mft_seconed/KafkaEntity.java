@@ -13,9 +13,13 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class KafkaEntity {
-    private String id;
+public class KafkaEntity  {
+    private int id;
 
     private String message;
+
+    private String name;
+
+    private Long create_time;
 
 }

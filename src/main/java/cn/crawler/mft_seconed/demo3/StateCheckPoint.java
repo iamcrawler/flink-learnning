@@ -27,11 +27,11 @@ public class StateCheckPoint {
         StreamExecutionEnvironment env =  StreamExecutionEnvironment.getExecutionEnvironment();
 
         //打开并设置checkpoint
-        // 1.设置checkpoint目录，这里我用的是本地路径，记得本地路径要file开头
+        // 1.设置checkpoint目录，这里我用的是本地路径，记得本地路径要file://开头
         // 2.设置checkpoint类型，at lease onece or EXACTLY_ONCE
         // 3.设置间隔时间，同时打开checkpoint功能
         //
-        env.setStateBackend(new FsStateBackend("file:///state_checkpoint/"));
+        env.setStateBackend(new FsStateBackend("file:///Users/liuliang/Documents/others/flinkdata/state_checkpoint"));
 
 //        env.setStateBackend(new FsStateBackend("file://D:\\softs\\flink\\state"));
         env.getCheckpointConfig().setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE);
@@ -39,9 +39,17 @@ public class StateCheckPoint {
 
 
         //添加source 每个2s 发送10条数据，key=1，达到100条时候抛出异常
+
+        //source发送记录到达100抛出异常
+        //source抛出异常之后，count发送统计数丢失，重新从0开始
+        //windows函数，重启后调用open函数，获取state数据，处理记录数从checkpoint中获取恢复，所以从100开始
+        //总结：source没有使用manage state状态丢失，windows使用manage state，异常状态不丢失
+        //问: 1. state.value()在open（）方法中调用的时候，会抛出null异常，而在apply中使用就不会抛出异常。为什么？
+        //    2. 为什么source里面没有open方法？source想使用state该桌面操作？
         env.addSource(new SourceFunction<Tuple3<Integer,String,Integer>>() {
             private Boolean isRunning = true;
             private int count = 0;
+
             @Override
             public void run(SourceContext<Tuple3<Integer, String, Integer>> sourceContext) throws Exception {
                 while(isRunning){

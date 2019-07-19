@@ -16,8 +16,22 @@ public class SendDataToKafkaSql {
     public static void main(String[] args){
         SendDataToKafkaSql sendDataToKafka = new SendDataToKafkaSql();
         for(int i=100;i<200;i++){
-            KafkaEntity build = KafkaEntity.builder().message("meaasge" + i).id(UUID.randomUUID() + "").build();
-            sendDataToKafka.send("test_sql", "123", JSON.toJSONString(build));
+
+            String name = "";
+            if(i%2==0){
+                name = "范冰冰";
+            }else {
+                name = "贾玲";
+            }
+
+            KafkaEntity build = KafkaEntity.builder()
+                    .message("meaasge" + i)
+                    .id(i)
+                    .name(name+i)
+                    .create_time(System.currentTimeMillis())
+                    .build();
+            System.out.println(build.toString());
+            sendDataToKafka.send("fan_or_jia", "123", JSON.toJSONString(build));
         }
 
     }
