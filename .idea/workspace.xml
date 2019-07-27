@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9140fea7-e797-4dbc-83b1-2d4c10451f75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/Demo4Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/EventTimeGenerateTimestamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/KafkaDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/KafkaDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/MyEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/MyEventSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaTimestamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/WatermarkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/source/KafkaSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/hello/StreamingWindowWordCountJava$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/hello/StreamingWindowWordCountJava$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/hello/StreamingWindowWordCountJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/hello/StreamingWindowWordCountJava.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/util/ExecutionEnvUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/util/ExecutionEnvUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/util/MailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/util/MailUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/util/MysqlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/util/MysqlUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/util/ObjectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/util/ObjectUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/wiki/WikiDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/wiki/WikiDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/wiki/WikiDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/wiki/WikiDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/crawler/wiki/WikiDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/crawler/wiki/WikiDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/TableAPIDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/TableAPIDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateCheckPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateCheckPoint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,10 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/EventTimeGenerateTimestamp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/SendDataToKafkaSql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="85" />
+            <state relative-caret-position="158">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/SinkKafkaEntity2Mysql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,49 +41,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/WatermarkTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/util/MysqlUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1806">
-              <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6888">
-              <caret line="360" column="64" selection-start-line="360" selection-start-column="40" selection-end-line="360" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/windowing/triggers/TriggerResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="155">
+              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaDemo4.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/TableAPIDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,19 +62,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/Tuple3.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="135" column="23" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="23" />
+            <state relative-caret-position="-206">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/KafkaDomain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateCheckPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="176">
+              <caret line="47" column="56" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/CheckPointMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="32" column="112" lean-forward="true" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,22 +92,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/MyEvent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/AutoSourceWithCp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaTimestamp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/KafkaEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="193">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/datastream/DataStreamSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -160,12 +137,11 @@
       <find>Trigger</find>
       <find>EventTimeTrigger</find>
       <find>watermark :</find>
-      <find>watermark :</find>
-      <find>watermark</find>
       <find>watermark</find>
       <find>ystem.out.println(</find>
       <find>setParallelism</find>
       <find>AUTO_OFFSET_RESET_CONFIG</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,9 +160,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/MyKafkaEntitySchema.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SchemaMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/CnpcByteArrayDeserializationScheme.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateCheckPoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/CheckPointMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/TableAPIDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaTimestamp.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_first/UserLoginWarn.java" />
         <option value="$PROJECT_DIR$/dependency-reduced-pom.xml" />
@@ -199,8 +173,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/EventTimeGenerateTimestamp.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/KafkaEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/KafkaDomain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/WatermarkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaDemo4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/WatermarkTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/TableAPIDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateCheckPoint.java" />
       </list>
     </option>
   </component>
@@ -247,11 +223,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-30" />
-    <option name="y" value="-859" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1600" />
-    <option name="height" value="877" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -261,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,36 +276,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="mft_first" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learnning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learnning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
               <item name="mft_seconed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learnning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learnning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="mft_seconed" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-learnning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-learnning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="mft_seconed" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learnning" type="b2602c69:ProjectViewProjectNode" />
@@ -391,6 +335,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,33 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SendDataToKafkaDemo4">
-    <configuration name="CheckPointMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.crawler.mft_seconed.demo3.CheckPointMain" />
-      <module name="crawler-flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.crawler.mft_seconed.demo3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventTimeGenerateTimestamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.crawler.mft_seconed.demo4.EventTimeGenerateTimestamp" />
-      <module name="crawler-flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.crawler.mft_seconed.demo4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StateCheckPoint">
     <configuration name="SendDataToKafkaDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.crawler.mft_seconed.demo4.SendDataToKafkaDemo4" />
       <module name="crawler-flink" />
@@ -462,12 +382,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SendDataToKafkaSql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.crawler.mft_seconed.demo2.SendDataToKafkaSql" />
+      <module name="crawler-flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.crawler.mft_seconed.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StateCheckPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.crawler.mft_seconed.demo3.StateCheckPoint" />
       <module name="crawler-flink" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.crawler.mft_seconed.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableAPIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.crawler.mft_seconed.demo2.TableAPIDemo" />
+      <module name="crawler-flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.crawler.mft_seconed.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,11 +436,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StateCheckPoint" />
+        <item itemvalue="Application.SendDataToKafkaSql" />
+        <item itemvalue="Application.TableAPIDemo" />
         <item itemvalue="Application.SendDataToKafkaDemo4" />
         <item itemvalue="Application.WatermarkTest" />
-        <item itemvalue="Application.EventTimeGenerateTimestamp" />
-        <item itemvalue="Application.StateCheckPoint" />
-        <item itemvalue="Application.CheckPointMain" />
       </list>
     </recent_temporary>
   </component>
@@ -517,25 +463,27 @@
       <workItem from="1563781336325" duration="571000" />
       <workItem from="1563787809202" duration="481000" />
       <workItem from="1563844599404" duration="39768000" />
-      <workItem from="1564037748447" duration="2177000" />
+      <workItem from="1564037748447" duration="5801000" />
+      <workItem from="1564126476316" duration="5002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70351000" />
+    <option name="totallyTimeSpent" value="78977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-88" y="-877" width="1600" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1600" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20924261" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21262887" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.36023393" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.29044586" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.46496814" />
@@ -543,11 +491,10 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.34267515" />
-      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.3910828" />
+      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.37894738" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="aiXcoder" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -558,7 +505,41 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32991013" />
+      <window_info anchor="right" id="aiXcoder" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21262887" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.29044586" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.46496814" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.34267515" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.34394905" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32967034" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32991013" />
+      <window_info anchor="right" id="aiXcoder" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -587,45 +568,10 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/datastream/DataStreamSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-core/1.8.0/flink-core-1.8.0-sources.jar!/org/apache/flink/api/java/typeutils/MultisetTypeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-core/1.8.0/flink-core-1.8.0-sources.jar!/org/apache/flink/api/java/typeutils/MapTypeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-core/1.8.0/flink-core-1.8.0-sources.jar!/org/apache/flink/api/common/typeinfo/TypeInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="77" column="37" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/datastream/SingleOutputStreamOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="46" column="66" lean-forward="true" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -744,27 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/AutoSourceWithCp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/CheckPointMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="32" column="96" selection-start-line="32" selection-start-column="96" selection-end-line="32" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_first/UserLoginWarn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1427">
@@ -848,33 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/TableAPIDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="55" column="50" lean-forward="true" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/SinkKafkaEntity2Mysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/SendDataToKafkaSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_first/HotItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -889,13 +787,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/KafkaEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -937,6 +828,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/Tuple3.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2394">
@@ -973,18 +874,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/WatermarkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="112">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo4/SendDataToKafkaDemo4.java">
+    <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/datastream/SingleOutputStreamOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/maven_rep/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0-sources.jar!/org/apache/flink/streaming/api/datastream/DataStreamSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/KafkaEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/SinkKafkaEntity2Mysql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/util/MysqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/SendDataToKafkaSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/StateCheckPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/CheckPointMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="32" column="112" lean-forward="true" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo3/AutoSourceWithCp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/crawler/mft_seconed/demo2/TableAPIDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

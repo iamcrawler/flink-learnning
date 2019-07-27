@@ -67,12 +67,11 @@ public class TableAPIDemo {
 
 
         Table sqlQuery = tableEnv.sqlQuery("select id,message,name,create_time from mft_flink_kafka");
-
+//        sqlQuery = sqlQuery.filter("id%2==0");
+//         sqlQuery.join(sqlQuery);
 
 //        Table table = tableEnv.scan("mft_flink_kafka");
 //        Table table1 = table.filter("id%2!=0")
-////                .join()
-////                .leftOuterJoin()
 ////                .where("id === 10")
 ////                .window(Tumble.over("1000.millis").on("rowtime").as("total"))
 //                .groupBy("id")

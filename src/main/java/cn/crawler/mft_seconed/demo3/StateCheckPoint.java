@@ -45,7 +45,7 @@ public class StateCheckPoint {
         //windows函数，重启后调用open函数，获取state数据，处理记录数从checkpoint中获取恢复，所以从100开始
         //总结：source没有使用manage state状态丢失，windows使用manage state，异常状态不丢失
         //问: 1. state.value()在open（）方法中调用的时候，会抛出null异常，而在apply中使用就不会抛出异常。为什么？
-        //    2. 为什么source里面没有open方法？source想使用state该桌面操作？
+        //    2. 为什么source里面没有open方法？source想使用state该怎么操作？
         env.addSource(new SourceFunction<Tuple3<Integer,String,Integer>>() {
             private Boolean isRunning = true;
             private int count = 0;
@@ -97,6 +97,7 @@ public class StateCheckPoint {
                     //获取state
                     @Override
                     public void open(Configuration parameters) throws Exception {
+//                        state.value();   空指针
                         System.out.println("##open");
                         ValueStateDescriptor<Integer> descriptor =
                                 new ValueStateDescriptor<Integer>(
